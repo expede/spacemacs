@@ -1,0 +1,33 @@
+#+TITLE: Vyper Layer
+
+# The maximum height of the logo should be 200 pixels.
+[[file:img/vyper.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+
+A layer to support Vyper development in Spacemacs.
+
+** Features:
+
+- Syntax highlighting
+- Synatx checking
+- Naive autocomplete
+- Gas estimation
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =vyper= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~SPC m g~   | Estimate gas at point |
