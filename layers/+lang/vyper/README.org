@@ -8,7 +8,6 @@
 - [[#description][Description]]
   - [[#features][Features:]]
 - [[#install][Install]]
-- [[#key-bindings][Key bindings]]
 
 * Description
 
@@ -17,17 +16,8 @@ A layer to support Vyper development in Spacemacs.
 ** Features:
 
 - Syntax highlighting
-- Synatx checking
-- Naive autocomplete
-- Gas estimation
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =vyper= to the existing =dotspacemacs-configuration-layers= list in this
 file.
-
-* Key bindings
-
-| Key Binding | Description           |
-|-------------+-----------------------|
-| ~SPC m g~   | Estimate gas at point |

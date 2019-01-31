@@ -1,4 +1,4 @@
-;;; packages.el --- vyper layer packages file for Spacemacs.
+;;; layers.el --- Django Layer layers File for Spacemacs
 ;;
 ;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
 ;;
@@ -9,14 +9,6 @@
 ;;
 ;;; License: GPLv3
 
-;;; Code:
+;; Prerequisites
 
-(defconst vyper-packages
-  '(vyper-mode
-    ))
-
-(defun vyper/init-vyper-mode ()
-  (use-package vyper-mode
-    :defer t))
-
-;;; packages.el ends here
+(configuration-layer/declare-layer 'python)
